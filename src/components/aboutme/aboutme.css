@@ -1,0 +1,95 @@
+.aboutme-container{
+  display: flex;
+  flex-direction: column;
+    color: #fff;
+    margin-top: 24px;
+    display: flex;
+    height: 100vh;
+    background-color: rgba(141, 141, 236, 1);
+background-image: radial-gradient(circle, rgba(141, 141, 236, 1) 0%, rgba(55, 38, 235, 1) 100%);
+}
+
+
+.aboutme-header {
+    display: flex;
+    margin: 12px 0 12px 100px;
+    padding: 12px;
+    font-size: 48px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+
+.animated-aboutme-element {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 1s ease-in-out, transform 1.5s ease-in-out;
+  }
+  
+  .animated-aboutme-element.animate {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .aboutme-content {
+   
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .about-me-technologies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    margin-top: 12px;
+    font-size: 32px;
+    width: 50%;
+  }
+
+  .about-me-technologies h3 {
+    font-style: italic;
+    font-variant: small-caps;
+  
+  }
+
+  .about-me-technologies ul li {
+    display: flex;
+    gap: 50px;
+    margin: 12px;
+    padding: 12px;
+    font-weight: lighter;
+    align-items: center;
+  }
+
+  .about-me-technologies ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+  
+  }
+
+
+  .about-me-description {
+    margin-top: 12px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+
+  .about-me-description > p {
+    display: flex;
+    text-align: center;
+    word-wrap: break-word;
+    width: 300px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+
+
+  }

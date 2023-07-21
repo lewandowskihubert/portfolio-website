@@ -1,0 +1,60 @@
+.projects-container {
+    display: flex;
+    flex-direction:column;
+    min-height: 100vh;
+    
+}
+.projects-header   {
+    display: flex;
+    margin: 12px 0 12px 100px;
+    padding: 12px;
+    font-size: 48px;
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+.animated-element {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 1s ease-in-out, transform 1.5s ease-in-out;
+}
+
+.animated-element.animate {
+  opacity: 1;
+  transform: translateX(0);
+}
+.left {
+    align-self: flex-start;
+    
+}
+
+.right {
+    align-self: flex-end;
+}
+
+.project-card-container {
+    width: 100%;
+}
+
+.toggle-projects-button {
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.toggle-projects-button > button {
+  background-color: black;
+  color: #fff;
+  border: none;
+  width: 100px;
+  height: 30px;
+  border-top-left-radius: 18px;
+  border-bottom-right-radius: 16px;
+  font-weight: bold;
+  font-style: italic;
+  cursor: pointer;
+
+
+}
