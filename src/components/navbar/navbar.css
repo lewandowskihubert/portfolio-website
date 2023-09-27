@@ -6,12 +6,9 @@
     left: 0%;
     bottom: auto;
     right: 0%;
-    background-color: rgba(0, 0, 0, 0);
     will-change:scroll-position;
-    
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
     font-size: 20px;
+    
     
     
 }
@@ -33,7 +30,7 @@ text-align: center;
 font-size: 16px;
 }
 
-.nav-name > a , .nav-item > a  { 
+.nav-name > a , .nav-item > a, .nav-cv >a { 
     text-decoration: none;
     color: inherit;
     
@@ -42,6 +39,16 @@ font-size: 16px;
 .nav-item {
     display: flex;
     gap: 24px;
+}
+
+
+
+.nav-cv > a {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    align-self: center;
+    gap: 1px;
 }
 .name-paragraph {
     font-weight: bolder;

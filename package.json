@@ -17,13 +17,16 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@mui/material": "^5.13.7",
     "@react-icons/all-files": "^4.1.0",
+    "axios": "^1.4.0",
+    "clipboard": "^2.0.11",
     "link-react": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.14.1",
     "react-scroll": "^1.8.9",
-    "react-scrollama": "^2.3.2"
+    "react-scrollama": "^2.3.2",
+    "react-social-icons": "^5.15.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

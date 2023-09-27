@@ -4,8 +4,8 @@
   align-items: center;
   height: 100vh;
   text-align: center;
-  background-color: rgba(141, 141, 236, 1);
-background-image: radial-gradient(circle, rgba(141, 141, 236, 1) 0%, rgba(55, 38, 235, 1) 100%);
+  background-color: rgba(6, 52, 202, 1);
+background-image: linear-gradient(14deg, rgba(6, 52, 202, 1) 6%, rgba(205, 241, 255, 1) 93%);
   color:white;
  
 

@@ -33,7 +33,7 @@ useEffect(() => {
   }, []);
 
   return (
-    <div>
+    <div className="projects-wrapper">
       <div className = {`projects-header animated-element ${animated ? 'animate' : ''}`} >Projects</div>
       <div className="projects-container">
         {displayedProjects.map((project, index) => (

@@ -1,59 +1,83 @@
 .contactme-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
-
-}
-
-.contactme-container textarea {
-    resize: none;
-}
-
-.contactme-form-content form {
-    display: flex;
     flex-direction: column;
+}
+
+.contact-me-content {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-me-socialmedias {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+}
+
+.social-media-item  {
+    align-self: center;
+    height: 150px;
+    width: 150px;
+    transition: ease-in-out 0.5s;
+}
+
+.social-media-item  a img  {
+   
+    height: 100%;
+    width: 100%;
     
 }
 
-.contactme-form-content form label {
-    text-align: center;
-    margin: 12px;
+.social-media-item:hover {
+    
+    height: 180px;
+    width: 180px;
+    
 }
 
-.contactme-form-content form input {
-    width: 200px;
-    height: 30px;
-    align-self: center;
-    border-radius: 12px;
-    border: 1px solid black;
-    text-align: center;
-}
 
-.contactme-form-content form textarea {
-    border-radius: 12px;
-    border: 1px solid black;
-    text-align: center;
-}
 
-.contactme-form-content form button {
-    border-top-left-radius: 18px;
-  border-bottom-right-radius: 16px;
-  border: none;
-  width: 100px;
-  height: 50px;
-}
 
-.contactme-form-content form button {
-    margin: 12px;
-    width: 100px;
-    align-self: center;
+.contact-me-resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(141, 141, 236, 1);
 background-image: radial-gradient(circle, rgba(141, 141, 236, 1) 0%, rgba(55, 38, 235, 1) 100%);
-  color:white;
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
 }
 
-.contactme-form-content form button:hover{
-    opacity: 0.8;
+.contact-me-resume:hover {
     cursor: pointer;
 }
+
+
+.contactme-header {
+    display: flex;
+    margin: 12px 0 12px 100px;
+    padding: 12px;
+    font-size: 48px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.animated-contactme-element {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 1s ease-in-out, transform 1.5s ease-in-out;
+  }
+  
+  .animated-contactme-element.animate {
+    opacity: 1;
+    transform: translateX(0);
+  }
